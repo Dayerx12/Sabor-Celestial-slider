@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 10px;
+}
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 20px;
+            background-color: #705c54; 
+            color: #324e57; 
+        }
+
+        header {
+            text-align: center;
+            padding: 30px;
+            background-color: #ffffff; /* Rojo de Lego */
+            color: #fff; /* Texto blanco */
+        }
+
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            color:rgba(223, 188, 188, 0.377) ; /* Texto blanco */
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+        background-color:navajowhite;
+        color: black;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center; 
+            padding: 10px;
+            background-color:rgb(36, 45, 46);
+            color: #fff;
+        }
+
+        .slider{
+    
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    animation: cambio 30s infinite alternate linear;
+    width: 400%;
+    list-style: none;
+}
+
+.slider li{
+    width: 200%;
+    height: 200%;
+}
+
+.slider img{
+   
+   width: 700px;
+   height: 700px;
+}
+@keyframes cambio{
+   0%{margin-left: 0%;}
+   20%{margin-left: 0%;}
+   
+   25%{margin-left: -100%;}
+   45%{margin-left: -100%;}
+
+   50%{margin-left: -200%;}
+   70%{margin-left: -200%;}
+
+   75%{margin-left: -300%;}
+   100%{margin-left: -300%;}
+}
